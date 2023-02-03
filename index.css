@@ -99,16 +99,18 @@
 }
 
 .projectSubDiv{
-    color: rgb(39, 18, 97);;
+    color: rgb(39, 18, 97);
     font-weight: 100;
     font-family: sans-serif;
     font-size: 13px; 
 }
 
 /* Responsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 400px) {
     /* For mobile phones: */
-    container {
-      width: 100%;
+    #container {
+      width: 140%;
+      margin-left: -30px;
+      padding: 1%;
     }
   }
