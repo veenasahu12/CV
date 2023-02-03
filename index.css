@@ -1,0 +1,114 @@
+#container{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: justify;
+}
+
+/* Left section css start from here */
+#leftDiv{
+    width: 50%;
+    background-color: rgb(39, 18, 97);
+    padding: 5%;
+}
+
+#heading{
+    color: rgb(33, 165, 165);
+    font-size: 42px;
+}
+
+#subHeading{
+    color: rgb(33, 165, 165);
+    margin-top: -20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.linktag{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#image{
+    width: 40%;
+    height: 20%;
+    border-radius: 70px;
+}
+
+.firstDiv{
+    margin-top: -50px;
+}
+
+/* Education */
+.thirdDiv{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top: -10px;
+}
+
+/* skills and framework */
+.fourthDiv{
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+/* Achievement */
+.fifthDiv{
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+/* Interest */
+.sixthDiv{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+/* Right section css strat from here */
+#rightDiv{
+    width: 50%;
+    padding: 5%;
+}
+
+.seventhDiv{
+    color: rgb(39, 18, 97);
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+/* project */
+.projectDiv{
+    display: flex;
+    color: rgb(39, 18, 97);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: -15px;
+    gap: 5px;
+}
+
+.projectSubDiv{
+    color: rgb(39, 18, 97);;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13px; 
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    container {
+      width: 100%;
+    }
+  }
